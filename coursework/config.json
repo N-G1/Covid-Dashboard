@@ -1,0 +1,10 @@
+{
+  "api_key": "f2ab05d737d84451b9764d9efff23e5e",
+  "location": "Exeter",
+  "location_type_N": "nation",
+  "location_type_L": "ltla",
+  "nation": "england",
+  "covid_terms": "Covid COVID-19 coronavirus",
+  "URL_filters": "&page=1&language=en&sortBy=publishedAt",
+  "deleted_articles": "del_articles.txt"
+}

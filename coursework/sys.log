@@ -1,0 +1,47 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:[10.Dec 2021 01:52:38] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:52:38] : Run news updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:38] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:52:41] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:52:41] : Run news updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:41] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:52:59] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:52:59] : Run news updates was called
+INFO:root:[10.Dec 2021 01:52:59] : News update was entered into queue
+INFO:root:[10.Dec 2021 01:52:59] : Run news updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:59] "GET /index?update=01%3A53&two=a&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:52:59] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:53:03] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:53:04] : News update was carried out
+INFO:root:[10.Dec 2021 01:53:04] : Run news updates was called
+INFO:root:[10.Dec 2021 01:53:04] : Covid update was entered into queue
+INFO:root:[10.Dec 2021 01:53:04] : Run covid updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:04] "GET /index?update=01%3A56&two=w&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:04] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:53:07] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:53:07] : Run news updates was called
+INFO:root:[10.Dec 2021 01:53:07] : Covid update was removed
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:07] "GET /index?update_item=w HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:07] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:53:15] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:53:15] : Run news updates was called
+INFO:root:[10.Dec 2021 01:53:15] : News update was entered into queue
+INFO:root:[10.Dec 2021 01:53:15] : Run news updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:15] "GET /index?update=01%3A58&two=w&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:15] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:53:41] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:53:41] : Run news updates was called
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:53:41] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:54:01] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:54:01] : Run news updates was called
+INFO:root:[10.Dec 2021 01:54:01] : News update removed has been completed
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:54:01] "GET /index?update_item=a HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:54:01] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
+INFO:root:[10.Dec 2021 01:54:02] : Run covid updates was called
+INFO:root:[10.Dec 2021 01:54:02] : Run news updates was called
+INFO:root:[10.Dec 2021 01:54:02] : News update was removed
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:54:02] "GET /index?update_item=w HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Dec/2021 01:54:02] "[36mGET /static/images/covid.jpg HTTP/1.1[0m" 304 -
